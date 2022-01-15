@@ -50,7 +50,7 @@ nav{
 /*JUMBOTRON*/
 .jumbotron{
   position: absolute;
-  background-image: url("cover_team.jpg");
+  background-image: url("img-team/cover_team.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 660px;
@@ -108,7 +108,7 @@ nav{
   margin-bottom: 100px;
 }
 .photo-team{
-  background-image: url("FOTO4_TEAM.jpg");
+  background-image: url("img-team/FOTO4_TEAM.jpg");
   background-color: #cccccc;
   height: 420px;
   background-position: center; /* Center the image */
@@ -136,7 +136,7 @@ footer{ min-height: 251px;}
   .jumbo-mob{
     position: absolute;
     display: block;
-    background-image: url("background-mobile.jpg");
+    background-image: url("img-basic/background-mobile.jpg");
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover;
