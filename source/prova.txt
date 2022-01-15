@@ -1,1 +1,2 @@
 Questo è un file di prova
+Prova di fetch.
