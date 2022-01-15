@@ -28,7 +28,7 @@ body{
     flex-direction: column;
     padding-left: 0;
     margin-bottom: 0;
-    margin-top: 10px;
+    /*margin-top: 10px;*/
     list-style: none;
 }
 
