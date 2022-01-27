@@ -1,50 +1,44 @@
-* {font-family: 'Avenir', sans-serif !important;}
-h9 { color: #808080 }
-h2{color:#000000}
-h7.fw-bold{ color: #808080;}
-p.descr{ margin-bottom: 10px; color: #808080; }
-
+* {font-family: 'Montserrat', sans-serif !important;}
+.c-black{ color:#000000; }
+.c-grey{ color: #808080; }
+.c-white{ color: #FFFFFF !important; }
+.f-mid{ font-weight: 500; }
+.f-sm-bold{ font-weight: 600; }
+.f-bold{ font-weight: 700; }
+.mrg { margin:15px; }
 
 
 /* NAVBAR*/
-nav{
-  padding-top: 20px !important;
-}
+
 .mobile-logo{ display: none !important; }
 
 .navbar-nav {
-    position: absolute;
-    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin: 5px;
+    list-style: none;
 }
 
-.navbar-nav .nav-link , img{
+.navbar-nav .nav-link{
     padding-right: 0;
     padding-left: 0;
-    margin: 15px !important;
+    margin: 20px;
 }
 
-.navbar-light .navbar-nav .nav-link {
-    color: #FFFFFF
-}
-
-.dropdown-menu {
-    position: absolute;
-    z-index: 1000;
-    display: none;
-    min-width: 10rem;
-    padding: .5rem 0;
-    margin: 0;
-    font-size: 1rem;
-    color: #212529;
-    text-align: left;
-    list-style: none;
-    background-color: #ebeaea !important;
-    background-clip: padding-box;
-    border: 1px solid #848084;
+.navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 0px;
     border-radius: .25rem;
+    transition: box-shadow .15s ease-in-out;
+    color: #808080 !important;
 }
 
-.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover { color: #808080;}
+.navbar-light .navbar-nav .nav-link { color: #FFFFFF; }
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover { color: #BCBCBC; }
 
 
 /*JUMBOTRON*/
@@ -53,7 +47,7 @@ nav{
   background-image: url("img-team/cover_team.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 660px;
+  height: 640px;
 }
 
 .social-img{
@@ -62,14 +56,9 @@ nav{
   display: flex;
   justify-content: flex-start;
 }
-/*
-.social-img{
-  display: none;
-  position: absolute;
-  display: flex;
-  justify-content: flex-end;
-}
-*/
+
+
+
 /*ARROWS*/
 .arrow{
     position: absolute;
@@ -97,15 +86,14 @@ nav{
 
 @keyframes animate { 0%{ opacity: 0; transform: rotate(45deg) translate(-20px,-20px);} }
 
-.social-img{
-  position: absolute;
-}
+.social-img{ margin-top: 220px; position: absolute;}
 
 /* MAIN CONTENT OF BODY */
+
 .main-content{
-  padding-top: 100px;
+  padding-top: 50px;
   margin-top: 600px;
-  margin-bottom: 100px;
+  margin-bottom: 150px;
 }
 .photo-team{
   background-image: url("img-team/FOTO4_TEAM.jpg");
@@ -117,65 +105,82 @@ nav{
 
 }
 .services{
-  color: #808080;
   padding-top: 50px;
-  padding-bottom: 150px;
-  background-color: #F1F1F1;
-  /*min-height: 550px;*/
+  padding-bottom: 100px;
+  background-color: #F1F1F1;/*
+  min-height: 700px !important;*/
+
 }
 
 
 /* FOOTER*/
-footer{ min-height: 251px;}
-.footer-content{ padding-top: 20px; }
+
+footer { min-height: 200px; background-color: #000000;}
+div.footer-content{ padding-top: 20px; }
 .social{ padding-bottom: 20px; }
 
 
-@media (max-width: 576px){
-  .jumbotron{ display: none;}
+@media (max-width: 575.98px){
+
+  nav.navbar { background-color: #000000; }
+  .jumbotron, .jumbo-mob, .arrow, footer h10, .photo-team, section.social-img{ display: none; }
+  .main-content{
+    margin-top: 20px;
+    margin-bottom: 100px;
+  }
+  .footer-logo{
+      width: 80px !important;
+      height: 62px !important;
+  }
+    /*
+  .main-content{
+    padding-top: 50px;
+    margin-bottom: 100px;
+  }*/
+
+/*
   .jumbo-mob{
     position: absolute;
     display: block;
     background-image: url("img-basic/background-mobile.jpg");
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
     height: 660px;
   }
+*//*
   .navbar-toggler {
     padding: .25rem .75rem;
     font-size: 1.25rem;
     line-height: 1;
-    background-color: #ebeaea;
-    border: 1px solid white !important;
+    background-color: transparent;
+    border: 0px;
     border-radius: .25rem;
     transition: box-shadow .15s ease-in-out;
-}
-  .photo-team { display: none; }
+    color: #808080 !important;
+}*/
+
+  /*
   .social-img{
-    /*display: block;*/
     position: absolute;
     display: flex;
     justify-content: flex-end;
-  }
+  }*/
+    /*
   .row-reverse{
     display: flex !important;
     flex-direction: column-reverse !important;
-    }
+    }*/
+
   .col-caro{
     margin-top: 50px;
   }
-  .main-content{
-    padding-top: 50px;
-    margin-top: 600px;
-    margin-bottom: 100px;
-  }
 
-  footer h9 {display: none;}
+
 }
 
 
-@media (max-width: 768px){
+@media (max-width: 767.98px){
   .social-img{
     /*display: block;*/
     position: absolute;
