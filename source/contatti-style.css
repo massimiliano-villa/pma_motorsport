@@ -3,6 +3,18 @@ h10{ color: #808080; font-weight: 600;}
 a { text-decoration: none; color: #808080;}
 a.nav-link, .dropdown-item { font-weight: 500;}
 
+/*  sarebbero da usare
+* {font-family: 'Montserrat', sans-serif !important;}
+.c-black{ color:#000000; }
+.c-grey{ color: #808080; }
+.c-white{ color: #FFFFFF !important; }
+.f-mid{ font-weight: 500; }
+.f-sm-bold{ font-weight: 600; }
+.f-bold{ font-weight: 700; }
+.mrg { margin:15px; }*/
+
+
+
 
 /*  NAVBAR */
 

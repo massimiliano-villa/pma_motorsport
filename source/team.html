@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
           rel="stylesheet">
-    <link href="team-style.css" rel="stylesheet">
+    <link href="css/team-style.css" rel="stylesheet">
     <title>TEAM</title>
   </head>
 
@@ -20,6 +20,8 @@
       <div  class="container-fluid jumbotron"></div>
       <div  class="container-fluid jumbo-mob"></div>
     <!--/.Jumbotron-->
+
+    <!-- non va l'hoover sul menu-->
 
     <!--NAVBAR-->
     <nav class="navbar navbar-expand-lg navbar-dark">
@@ -37,14 +39,14 @@
             <a class="navbar-brand main-logo" href="home.html">
               <img src="img-basic/logo_pma.png" alt="logo pma" width="270" height="45" class="d-inline-block align-text-top mrg">
             </a>
-            <a class="nav-link f-mid c-white" href="galleria.html">GALLERIA</a>
+            <a class="nav-link f-mid c-white" href="clio_cup21.html">GALLERIA</a>
             <a class="nav-link f-mid c-white" href="contatti.html">CONTATTI</a>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle c-white" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               IT
               </a>
               <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarDarkDropdownMenuLink">
-                <li><a class="dropdown-item f-mid" href="#">ENGLISH</a></li>
+                <li><a class="dropdown-item f-mid" href="en/team.html">ENGLISH</a></li>
               </ul>
           </li>
           </div>
@@ -75,7 +77,7 @@
     <!--TEAM-->
     <section class="container px-4 main-content" id="content">
       <div class="row gx-5">
-        <div class="col-sm-12 col-lg-6">
+        <div class="col-sm-12 col-lg-6 bho-team">
           <h7 class="c-grey f-bold">TEAM</h7>
           <br>
           <br>
@@ -93,7 +95,9 @@
             portare il pilota a sfruttare al massimo le sue capacità.
           </p>
         </div>
-        <div class="col-sm-12 col-lg-6 photo-team"></div>
+        <div class="col-sm-12 col-lg-6 ">
+          <img src="img-team/FOTO4_TEAM.jpg" class="photo-team" alt="">
+        </div>
       </div>
     </section>
   <!--./TEAM-->
@@ -120,15 +124,6 @@
                     <img src="img-team/FOTO3_TEAM.jpg" class="d-block w-100" alt="TEAM3">
                   </div>
                 </div>
-              <!--
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-              </button>-->
           </div>
         </div>
         <div class="col-sm-12 col-lg-6">
@@ -136,7 +131,8 @@
             <br>
             <br>
             <h2 class="c-black f-mid">I SERVIZI</h2>
-            <p class="c-grey f-mid">
+            <br>
+            <p class="c-grey f-mid lh-lg">
               - Preparazione e setup delle macchine<br>
               - Supporto tecnico e ingegnere telemetrista<br>
               - Analisi dati e coach di supporto<br>
