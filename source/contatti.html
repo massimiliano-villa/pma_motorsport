@@ -1,139 +1,205 @@
 <!doctype html>
 <html lang="en">
 
-  <head>
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
           rel="stylesheet">
-    <link href="contatti-style.css" rel="stylesheet">
-    <title>Contatti</title>
-  </head>
+    <link href="css/contatti-style.css" rel="stylesheet">
+    <title>CONTATTI</title>
+</head>
 
-  <body>
+<body>
 
-    <!--NAVBAR-->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
-      <div class="container-fluid">
+<!--NAVBAR-->
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+    <div class="container-fluid">
         <a class="navbar-brand" href="home.html">
-          <img src="img-basic/footer_logo.png" alt="logo pma" width="80" height="62" class="d-inline-block align-text-top mobile-logo">
+            <img src="img-basic/footer_logo.png" alt="logo pma" width="80" height="62"
+                 class="d-inline-block align-text-top mobile-logo mrg">
         </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="icon-bar top-bar"></span>
+            <span class="icon-bar middle-bar"></span>
+            <span class="icon-bar bottom-bar"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-link" href="team.html">TEAM</a>
-            <a class="nav-link" href="campionati.html">CAMPIONATI</a>
-            <a class="navbar-brand main-logo" href="home.html">
-              <img src="img-basic/logo_pma.png" alt="logo pma" width="270" height="45" class="d-inline-block align-text-top">
-            </a>
-            <a class="nav-link" href="clio_cup21.html">GALLERIA</a>
-            <a class="nav-link" href="contatti.html">CONTATTI</a>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              IT
-              </a>
-              <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarDarkDropdownMenuLink">
-                <li><a class="dropdown-item" href="#">ENGLISH</a></li>
-              </ul>
-          </li>
-          </div>
+            <div class="navbar-nav">
+                <a class="nav-link f-mid" href="team.html">TEAM</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle f-mid" href="#" id="navbarDarkDropdownMenuLink" role="button"
+                       data-bs-toggle="dropdown" aria-expanded="false">
+                        CAMPIONATO
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                        <li>
+                            <a class="dropdown-item f-mid c-white" href="camp-cliocup.html">CLIO CUP</a>
+                            <div class="container">
+                                <hr class="c-white">
+                            </div>
+                        </li>
+                        <li>
+                            <a class="dropdown-item f-mid c-white" href="camp-tcr.html">TCR</a>
+                        </li>
+                    </ul>
+                </li>
+                <a class="navbar-brand main-logo" href="home.html">
+                    <img src="img-basic/logo_pma.png" alt="logo pma" width="270" height="45"
+                         class="d-inline-block align-text-top mrg">
+                </a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link f-mid" href="#" id="navbarDarkDropdownMenuLink" role="button"
+                       data-bs-toggle="dropdown" aria-expanded="false">
+                        GALLERIA
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                        <li>
+                            <a class="dropdown-item f-mid c-white" href="clio_cup21.html">CLIO CUP</a>
+                            <div class="container">
+                                <hr class="c-white">
+                            </div>
+                        </li>
+                        <li>
+                            <a class="dropdown-item f-mid c-white" href="tcr21.html">TCR</a>
+                        </li>
+                    </ul>
+                </li>
+                <a class="nav-link f-mid" href="contatti.html">CONTATTI</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle c-white f-mid" href="#" id="navbarDarkDropdownMenuLink"
+                       role="button"
+                       data-bs-toggle="dropdown" aria-expanded="false">
+                        IT
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                        <li><a class="dropdown-item f-mid" href="en/contatti.html">ENGLISH</a></li>
+                    </ul>
+                </li>
+            </div>
         </div>
-      </div>
-    </nav>
-    <!--/.NAVBAR-->
+    </div>
+</nav>
+<!--/.NAVBAR-->
 
-    <!--MAIN CONTENT-->
-    <section class="container-fluid main-content ">
+<!--MAIN CONTENT-->
+<section class="container-fluid main-content ">
 
-      <div class="container">
+    <div class="container">
 
-          <div class="row gx-5">
+        <div class="row gx-5 row-reverse">
 
             <div class="col-sm-12 col-md-6 rounded photo-team itm1"></div>
 
-            <div class="col-sm-12 col-md-6 itm2">
+            <div class="col-sm-12 col-md-6 itm2 mb-5">
                 <h3 class="mod-mob">CONTATTACI</h3>
                 <br class="mod-mob"><br class="mod-mob">
-              <form>
-                <div class="mb-3">
-                  <label for="exampleInputEmail1" class="form-label">Email address</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-                </div>
-                <div class="mb-3">
-                  <label for="exampleInputPassword1" class="form-label">Password</label>
-                  <input type="password" class="form-control" id="exampleInputPassword1">
-                </div>
-                <div class="mb-3 form-check">
-                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                </div>
-                <button type="submit" class="btn btn-secondary">Submit</button>
-              </form>
+                <form>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    </div>
+                    <div class="sub mt-5 mb-3">
+                        <button type="submit" class="btn button c-white">Invia</button>
+                    </div>
+                </form>
 
-              <br class="mod-mob"><br class="mod-mob">
+                <br class="mod-mob"><br class="mod-mob">
 
-              <div class="mod-mob row ">
-                <div class="mod-mob col-sm-12">
-                  <h3 class="mod-mob">DOVE SIAMO</h3>
-                  <a class="mod-mob" href="https://www.google.it/maps/search/Via+Santi+12,+41032+Cavezzo+(MO)/@44.8338015,11.0265931,16z/data=!3m1!4b1?hl=it">
-                    <img src="img-contatti/ico_posizione.png" class="mod-mob icone" alt="icone" width="22" height="34">
-                    <h7 class="mod-mob">Via Santi 12, 41032 Cavezzo (MO), Italy</h7>
-                  </a>
+                <div class="mod-mob row ">
+                    <div class="mod-mob col-sm-12">
+                        <h3 class="mod-mob">DOVE SIAMO</h3>
+                        <a class="mod-mob"
+                           href="https://www.google.it/maps/search/Via+Santi+12,+41032+Cavezzo+(MO)/@44.8338015,11.0265931,16z/data=!3m1!4b1?hl=it">
+                            <img src="img-contatti/ico_posizione.png" class="mod-mob icone" alt="icone" width="22"
+                                 height="34">
+                            <h7 class="mod-mob">Via Santi 12, 41032 Cavezzo (MO), Italy</h7>
+                        </a>
+                    </div>
                 </div>
-             </div>
 
-          </div>
+            </div>
 
         </div>
 
-      <div class="row address">
-        <div class="col-sm-12">
-          <h3>DOVE SIAMO</h3>
-          <a href="https://www.google.it/maps/search/Via+Santi+12,+41032+Cavezzo+(MO)/@44.8338015,11.0265931,16z/data=!3m1!4b1?hl=it">
-            <img src="img-contatti/ico_posizione.png" class="icone" alt="icone" width="22" height="34">
-            <h7>Via Santi 12, 41032 Cavezzo (MO), Italy</h7>
-          </a>
+        <div class="row address border border-dark">
+            <div class="col-sm-12">
+                <h3>DOVE SIAMO</h3>
+                <a href="https://www.google.it/maps/search/Via+Santi+12,+41032+Cavezzo+(MO)/@44.8338015,11.0265931,16z/data=!3m1!4b1?hl=it">
+                    <img src="img-contatti/ico_posizione.png" class="icone " alt="icone" width="22" height="34">
+                    <h7>Via Santi 12, 41032 Cavezzo (MO), Italy</h7>
+                </a>
+                <br><br>
+
+                <form name="formmail" method="post" action="https://formspree.io/maxvilla970@gmail.com">
+                    <input type="hidden" name="_subject" value="Messaggio dal sito"/>
+                    <input type="hidden" name="_next" value="localhost:8000"/>
+
+                    <label for="nome">Nome e Cognome</label>
+                    <input type="text" id="nome" name="nome" placeholder="Inserisci Nome e Cognome">
+
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="email" placeholder="Indirizzo di posta elettronica">
+
+                    <label for="tel">Telefono</label>
+                    <input type="text" id="tel" name="tel" placeholder="Numero di telefono">
+
+                    <label for="msg">Messaggio</label>
+                    <textarea id="msg" name="msg" placeholder="Scrivi il tuo messaggio"></textarea>
+
+                    <input type="submit" value="Invia Richiesta">
+                </form>
+
+            </div>
         </div>
-      </div>
 
-     </div>
-    </section>
-    <!--/.MAIN CONTENT-->
+    </div>
+</section>
+<!--/.MAIN CONTENT-->
 
-  <br class="mod-mob"><br class="mod-mob">
+<br class="mod-mob"><br class="mod-mob">
 
-  <!--FOOTER-->
-    <footer class="container-fluid">
-      <div class="container footer-content text-center">
-        <img src="img-basic/footer_logo.png" class="footer-logo" alt="logo pma" width="90" height="80">
+<!--FOOTER-->
+<footer class="container-fluid">
+    <div class="container footer-content text-center">
+        <img src="img-basic/footer_logo.png" class="footer-logo mrg" alt="logo pma" width="90" height="80">
         <div class="container social">
             <a href="https://www.instagram.com/pmamotorsport/?hl=en"
                alt="instagram" width="22" height="22">
-              <img src="img-basic/logo_instagram.png" alt="instagram" width="22" height="22"></a>
+                <img src="img-basic/logo_instagram.png" class="mrg" alt="instagram" width="22" height="22"></a>
             <a href="https://mobile.twitter.com/motorsportpma"
                alt="twitter" width="26" height="23">
-              <img src="img-basic/logo_twitter.png" alt="twitter" width="26" height="23"></a>
+                <img src="img-basic/logo_twitter.png" class="mrg" alt="twitter" width="26" height="23"></a>
             <a href="https://m.facebook.com/pmamotorsport/"
                alt="facebook" width="13" height="23">
-              <img src="img-basic/logo_facebook.png" alt="facebook" width="13" height="23"></a>
-          <br>
-          <br>
-          <h10>COPYRIGHT 2021 &copy PMA MOTORSPORT</h10>
+                <img src="img-basic/logo_facebook.png" class="mrg" alt="facebook" width="13" height="23"></a>
+            <br>
+            <br>
+            <h10 class="c-grey f-sm-bold">COPYRIGHT 2021 &copy PMA MOTORSPORT</h10>
         </div>
-      </div>
-    </footer>
-  <!--/.FOOTER-->
+    </div>
+</footer>
+<!--/.FOOTER-->
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-            crossorigin="anonymous">
-    </script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous">
+</script>
 
-  </body>
+</body>
 </html>

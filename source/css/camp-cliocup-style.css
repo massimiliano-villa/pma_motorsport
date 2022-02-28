@@ -35,12 +35,12 @@
 
 .intro {
     display: block;
-    background-image: url("../img-team/cover_team.jpg");
+    /* position: relative;*/
+    background-image: url("../img-campionati/camp-clio/Copertina_ClioCup.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     height: 100vh;
-    width: 100%;
 }
 
 .social-img {
@@ -64,8 +64,8 @@
     font-size: 32px;
 }
 
-
 /*ARROWS*/
+
 .arrow {
     position: absolute;
     top: 95vh;
@@ -139,101 +139,56 @@
 .navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
     color: #BCBCBC !important;
 }
+
 .dropdown:hover .dropdown-menu {
     display: block;
     /*
         margin-top: 0; /*remove the gap so it doesn't close*/
 
 }
-.dropdown-toggle::after {
-    display: inline-block;
-    /* margin-left: .255em; */
-    vertical-align: .255em;
-    content: "";
-    border-top: .3em solid;
-    border-right: .3em solid transparent;
-    border-bottom: 0;
-    border-left: .3em solid transparent;
-}
-
-/* span X section*/
-
-.navbar-toggler {
-    border: none;
-    display: flex;
-    flex-direction: column;
-    background: transparent !important;
-}
-.navbar-toggler:focus{ text-decoration: none; outline: 0; box-shadow: 0 0 0 0;}
-
-.navbar-toggler:hover {
-  background: transparent !important;
-}
-
-.navbar-toggler .icon-bar {
-  width: 29px;
-  transition: all 0.2s;
-  margin: 3px;
-  border: 1px solid #808080;
-}
-
-.navbar-toggler .top-bar {
-  transform: translateX(3px) rotate(45deg);
-  transform-origin: 10% 10%;
-}
-.navbar-toggler .middle-bar {
-  opacity: 0;
-}
-.navbar-toggler .bottom-bar {
-  transform: translateX(3px) rotate(-45deg);
-  transform-origin: 10% 90%;
-}
-.navbar-toggler.collapsed .top-bar {
-  transform: rotate(0);
-}
-.navbar-toggler.collapsed .middle-bar {
-  opacity: 1;
-}
-.navbar-toggler.collapsed .bottom-bar {
-  transform: rotate(0);
-}
-
-
-
-
 
 
 /* MAIN CONTENT OF BODY */
 
 main {
-    padding-top: 50px;
     margin-top: 100vh;
+    padding-top: 50px;
     margin-bottom: 150px;
 }
 
-.photo-team {
-    height: 100%;
+.podio {
     width: 100%;
-    margin: 30px 0;
+    height: 100%;
 }
 
-/*
-.photo-team{
-  background-image: url("img-team/FOTO4_TEAM.jpg");
-  background-color: #cccccc;
-  height: 420px;
-  background-position: center; /* Center the image
-  background-repeat: no-repeat; /* Do not repeat the image
-  background-size: cover;
-}*/
+.cl1, .cl2 {
+    min-height: 300px;
+    width: 100%;
+}
 
-.services {
-    padding-top: 50px;
-    padding-bottom: 100px;
-    background-color: #F1F1F1;
-    /*
-      min-height: 700px !important;*/
+.banner {
+    width: 100%; /*height: 180px; */
+    margin-top: 100px;
+}
 
+.back {
+    background-image: url("../img-campionati/camp-clio/JELMINI_ClioCup.png");
+    background-repeat: no-repeat;
+    background-size: cover;/*
+    padding: 0 !important;
+    margin: 0 !important;*/
+}
+
+.pi-cards {
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+}
+
+.pi-soc {
+    display: flex;
+    margin: 90vh 0vh 0vh 23vh;
+    width: auto;
 }
 
 
@@ -255,8 +210,32 @@ div.footer-content {
 
 @media (max-width: 575.98px) {
 
-     section.social-img {
+    footer h10,
+    section.social-img {
         display: none;
+    }
+
+    .footer-logo {
+        width: 80px;
+        height: 62px;
+    }
+
+    .podio {
+        margin: 50px 0;
+        width: 75%;
+        height: 500px;
+    }
+
+    .cl1, .cl2 {
+        min-height: 300px;
+        width: 100%;
+        padding-bottom: 50px !important;
+    }
+
+    .banner {
+        width: 100%;
+        height: 90px !important;
+        margin-top: 50px;
     }
 
     .social-img {
@@ -268,18 +247,11 @@ div.footer-content {
         top: 65vh;
     }
 
-
-    .footer-logo {
-        width: 80px;
-        height: 62px;
+    .item {
+        order: 4;
     }
-
-    .row-reverse {
-        display: flex !important;
-        flex-direction: column-reverse !important;
-    }
-
 }
+
 
 @media (min-width: 767.98px) {
 
@@ -289,7 +261,6 @@ div.footer-content {
 
     .txt1 {
         font-size: 68px;
-        color: #FFFFFF;
     }
 
     .txt2 {
@@ -302,13 +273,10 @@ div.footer-content {
     .intro-mob, .txt1, .txt2 {
         display: none;
     }
-    .photo-team { /*border: 2px solid blue;*/
-        height: 85%; /*width: 100%; */
-        padding-top: 20px;
-    }
 }
 
 @media (max-width: 991.98px) {
+
     nav.navbar {
         background-color: #000000;
     }
@@ -321,16 +289,14 @@ div.footer-content {
         display: none;
     }
 
-    .col-sm-12 .col-lg-6 .desc-team {
-        margin-bottom: 120px;
+    /* .banner{ width: 100%; height: 120px !important;;}*/
+    .item {
+        order: 4;
     }
 
-    .col-caro {
-        margin-top: 50px;
-    }
-
-    .row-reverse {
-        display: flex !important;
-        flex-direction: column-reverse !important;
-    }
 }
+
+/*
+@media (max-width: 1199.98px) {
+    .banner{ width: 100%; height: 150px;}
+}*/

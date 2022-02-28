@@ -14,6 +14,7 @@ a { text-decoration: none;}
 .f-bolder { font-weight: 900;}
 .mrg { margin:15px; }
 .c-loc { color: #00acc1;}
+
 .dropdown:hover .dropdown-menu {
     display: block;
     /*margin-top: 0; /*remove the gap so it doesn't close*/
