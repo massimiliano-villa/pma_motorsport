@@ -296,6 +296,7 @@ div.footer-content {
 
         font-size: 35px;
     }
+
 }
 
 @media (min-width: 991.98px) {
@@ -320,6 +321,8 @@ div.footer-content {
     .main-logo {
         display: none;
     }
+
+    li { text-align: left !important;}
 
     .col-sm-12 .col-lg-6 .desc-team {
         margin-bottom: 120px;

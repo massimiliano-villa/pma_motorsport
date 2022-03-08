@@ -34,14 +34,14 @@
             <div class="navbar-nav">
                 <a class="nav-link f-mid" href="team.html">TEAM</a>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle f-mid" href="#" id="navbarDarkDropdownMenuLink" role="button"
+                    <a class="nav-link f-mid" href="#" id="navbarDarkDropdownMenuLink" role="button"
                        data-bs-toggle="dropdown" aria-expanded="false">
-                        CAMPIONATO
+                        CAMPIONATI
                     </a>
-                    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                    <ul class="dropdown-menu dropdown-menu-dark text-center" aria-labelledby="navbarDarkDropdownMenuLink">
                         <li>
                             <a class="dropdown-item f-mid c-white" href="camp-cliocup.html">CLIO CUP</a>
-                            <div class="container">
+                            <div class="container-fluid">
                                 <hr class="c-white">
                             </div>
                         </li>
@@ -55,14 +55,14 @@
                          class="d-inline-block align-text-top mrg">
                 </a>
                 <li class="nav-item dropdown">
-                    <a class="nav-link f-mid" href="#" id="navbarDarkDropdownMenuLink" role="button"
+                    <a class="nav-link f-mid " href="#" id="navbarDarkDropdownMenuLink" role="button"
                        data-bs-toggle="dropdown" aria-expanded="false">
                         GALLERIA
                     </a>
-                    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                    <ul class="dropdown-menu dropdown-menu-dark text-center" aria-labelledby="navbarDarkDropdownMenuLink">
                         <li>
                             <a class="dropdown-item f-mid c-white" href="clio_cup21.html">CLIO CUP</a>
-                            <div class="container">
+                            <div class="container-fluid">
                                 <hr class="c-white">
                             </div>
                         </li>
@@ -89,18 +89,17 @@
 <!--/.NAVBAR-->
 
 <!--MAIN CONTENT-->
-<section class="container-fluid main-content ">
+<section class="container main-content shadow p-3 mb-5 bg-body rounded">
 
-    <div class="container">
-
-        <div class="row gx-5 row-reverse">
+        <div class="row gx-5">
 
             <div class="col-sm-12 col-md-6 rounded photo-team itm1"></div>
 
-            <div class="col-sm-12 col-md-6 itm2 mb-5">
-                <h3 class="mod-mob">CONTATTACI</h3>
-                <br class="mod-mob"><br class="mod-mob">
-                <form>
+            <div class="col-sm-12 col-md-12 col-lg-6 itm2 mb-3 ">
+
+                <form class="">
+                    <h3 class="mod-mob">CONTATTACI</h3>
+                    <br class="mod-mob"><br class="mod-mob">
                     <div class="mb-3">
                         <label for="exampleInputEmail1" class="form-label">Email address</label>
                         <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
@@ -121,54 +120,22 @@
 
                 <br class="mod-mob"><br class="mod-mob">
 
-                <div class="mod-mob row ">
-                    <div class="mod-mob col-sm-12">
-                        <h3 class="mod-mob">DOVE SIAMO</h3>
-                        <a class="mod-mob"
-                           href="https://www.google.it/maps/search/Via+Santi+12,+41032+Cavezzo+(MO)/@44.8338015,11.0265931,16z/data=!3m1!4b1?hl=it">
-                            <img src="img-contatti/ico_posizione.png" class="mod-mob icone" alt="icone" width="22"
-                                 height="34">
-                            <h7 class="mod-mob">Via Santi 12, 41032 Cavezzo (MO), Italy</h7>
-                        </a>
-                    </div>
-                </div>
-
             </div>
 
         </div>
 
-        <div class="row address border border-dark">
+        <div class="row address">
             <div class="col-sm-12">
                 <h3>DOVE SIAMO</h3>
                 <a href="https://www.google.it/maps/search/Via+Santi+12,+41032+Cavezzo+(MO)/@44.8338015,11.0265931,16z/data=!3m1!4b1?hl=it">
                     <img src="img-contatti/ico_posizione.png" class="icone " alt="icone" width="22" height="34">
                     <h7>Via Santi 12, 41032 Cavezzo (MO), Italy</h7>
                 </a>
-                <br><br>
-
-                <form name="formmail" method="post" action="https://formspree.io/maxvilla970@gmail.com">
-                    <input type="hidden" name="_subject" value="Messaggio dal sito"/>
-                    <input type="hidden" name="_next" value="localhost:8000"/>
-
-                    <label for="nome">Nome e Cognome</label>
-                    <input type="text" id="nome" name="nome" placeholder="Inserisci Nome e Cognome">
-
-                    <label for="email">Email</label>
-                    <input type="text" id="email" name="email" placeholder="Indirizzo di posta elettronica">
-
-                    <label for="tel">Telefono</label>
-                    <input type="text" id="tel" name="tel" placeholder="Numero di telefono">
-
-                    <label for="msg">Messaggio</label>
-                    <textarea id="msg" name="msg" placeholder="Scrivi il tuo messaggio"></textarea>
-
-                    <input type="submit" value="Invia Richiesta">
-                </form>
 
             </div>
         </div>
 
-    </div>
+
 </section>
 <!--/.MAIN CONTENT-->
 

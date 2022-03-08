@@ -217,7 +217,7 @@ main {
 }
 
 .banner {
-    width: 100%; /*height: 180px; */
+    width: 100%;
     margin-top: 100px;
 }
 
@@ -261,7 +261,6 @@ div.footer-content {
 
 @media (max-width: 575.98px) {
 
-    footer h10,
     section.social-img {
         display: none;
     }
@@ -285,7 +284,6 @@ div.footer-content {
 
     .banner {
         width: 100%;
-        height: 90px !important;
         margin-top: 50px;
     }
 
@@ -337,17 +335,15 @@ div.footer-content {
         display: block !important;
     }
 
+    li { text-align: left !important;}
+
     .main-logo {
         display: none;
     }
+
      .row-reverse {
             display: flex !important;
             flex-direction: column-reverse !important;
         }
     /* .wrapper{display: none;}*/
 }
-
-/*
-@media (max-width: 1199.98px) {
-    .banner{ width: 100%; height: 150px;}
-}*/
