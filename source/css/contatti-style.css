@@ -38,10 +38,6 @@ a {
 
 /*  NAVBAR */
 
-.mobile-logo {
-    display: none !important;
-}
-
 nav, footer {
     background-color: #000000;
 }
@@ -220,18 +216,12 @@ div.footer-content {
 
 @media (max-width: 991.98px) {
 
-    .mobile-logo {
-        display: block !important;
-    }
+    li { text-align: left !important;}
 
-     li { text-align: left !important;}
-
-    .main-logo {
-        display: none;
-    }
     .itm1 {
         display: none !important;
     }
+
     .mod-mob {
         display: block;
     }

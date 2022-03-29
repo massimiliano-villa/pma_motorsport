@@ -1,7 +1,9 @@
 * {
     font-family: 'Montserrat', sans-serif !important;
 }
-body{}
+p{
+    text-align: justify;
+}
 .c-black {
     color: #000000;
 }
@@ -110,9 +112,6 @@ body{}
     font-size: 1.25rem;
     text-decoration: none;
     white-space: nowrap;
-}
-.mobile-logo {
-    display: none !important;
 }
 
 .navbar-nav {
@@ -331,15 +330,8 @@ div.footer-content {
         background-color: #000000;
     }
 
-    .mobile-logo {
-        display: block !important;
-    }
-
     li { text-align: left !important;}
 
-    .main-logo {
-        display: none;
-    }
 
      .row-reverse {
             display: flex !important;

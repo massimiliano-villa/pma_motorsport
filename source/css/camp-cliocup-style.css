@@ -1,7 +1,9 @@
 * {
     font-family: 'Montserrat', sans-serif !important;
 }
-
+p{
+    text-align: justify;
+}
 .c-black {
     color: #000000;
 }
@@ -102,10 +104,6 @@
 
 
 /* NAVBAR*/
-
-.mobile-logo {
-    display: none !important;
-}
 
 .navbar-nav {
     display: flex;
@@ -348,16 +346,6 @@ div.footer-content {
     nav.navbar {
         background-color: #000000;
     }
-
-    .mobile-logo {
-        display: block !important;
-    }
-
-    .main-logo {
-        display: none;
-    }
-
-
 
     /* .banner{ width: 100%; height: 120px !important;;}*/
     .item {
