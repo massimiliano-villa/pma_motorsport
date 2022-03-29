@@ -1,0 +1,2 @@
+Questo è un secondo file di prova.
+Verificare la correttezza.
