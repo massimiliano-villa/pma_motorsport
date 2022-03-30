@@ -16,51 +16,9 @@
 
 <body>
 
-<!-- INTRO -->
-<section class="container-fluid intro position-absolute">
-
-    <div class="intro-mob text-center d-lg-none ">
-        <h1 class="c-white f-bold txt1">
-            Home
-        </h1>
-        <a href="#date" class="text-decoration-none">
-            <h3 class="c-grey f-sm-bold txt2">scopri di più</h3>
-        </a>
-    </div>
-
-    <!--SOCIAL-->
-    <aside class="container-fluid social-img">
-
-        <a href="https://www.instagram.com/pmamotorsport/?hl=en">
-            <img src="img-basic/logo_instagram.png" class="mrg"
-                 alt="instagram" width="22" height="22">
-        </a>
-        <br>
-        <a href="https://mobile.twitter.com/motorsportpma">
-            <img src="img-basic/logo_twitter.png" class="mrg"
-                 alt="twitter" width="26" height="23">
-        </a>
-        <br>
-        <a href="https://m.facebook.com/pmamotorsport/">
-            <img src="img-basic/logo_facebook.png" class="mrg"
-                 alt="facebook" width="13" height="23">
-        </a>
-
-        <br>
-    </aside>
-    <!--./SOCIAL-->
-    <!--ARROWS-->
-    <div class="arrow">
-        <a href="#date">
-            <span></span>
-        </a>
-    </div>
-    <!--/.ARROWS-->
-</section>
-<!--/.INTRO-->
 
 <!--NAVBAR-->
-<nav class="navbar navbar-expand-lg navbar-dark">
+<nav class="navbar navbar-expand-lg navbar-dark ">
     <div class="container-fluid">
         <a class="navbar-brand d-lg-none" href="home.html">
             <img src="img-basic/footer_logo.png" alt="logo pma" width="80" height="62"
@@ -118,7 +76,7 @@
                 </li>
                 <a class="nav-link f-mid c-white" href="contatti.html">CONTATTI</a>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle c-white" href="#" id="navbarDarkDropdownMenuLink" role="button"
+                    <a class="nav-link dropdown-toggle f-mid c-white" href="#" id="navbarDarkDropdownMenuLink" role="button"
                        data-bs-toggle="dropdown" aria-expanded="false">
                         IT
                     </a>
@@ -132,36 +90,147 @@
 </nav>
 <!--/.NAVBAR-->
 
+<!-- INTRO -->
+
+<section class="container-fluid intro position-absolute">
+
+    <!--
+    <div class="intro-mob text-center d-lg-none ">
+        <h1 class="c-white f-bold txt1">
+            Home
+        </h1>
+        <a href="#date" class="text-decoration-none">
+            <h3 class="c-grey f-sm-bold txt2">scopri di più</h3>
+        </a>
+    </div>
+    -->
+    <!--SOCIAL-->
+    <aside class="container-fluid social-img">
+
+        <a href="https://www.instagram.com/pmamotorsport/?hl=en">
+            <img src="img-basic/logo_instagram.png" class="mrg"
+                 alt="instagram" width="22" height="22">
+        </a>
+        <br>
+        <a href="https://mobile.twitter.com/motorsportpma">
+            <img src="img-basic/logo_twitter.png" class="mrg"
+                 alt="twitter" width="26" height="23">
+        </a>
+        <br>
+        <a href="https://m.facebook.com/pmamotorsport/">
+            <img src="img-basic/logo_facebook.png" class="mrg"
+                 alt="facebook" width="13" height="23">
+        </a>
+
+        <br>
+    </aside>
+    <!--./SOCIAL-->
+
+    <!--ARROWS-->
+    <div class="arrow">
+        <a href="#date">
+            <span></span>
+        </a>
+    </div>
+    <!--/.ARROWS-->
+</section>
+<!--/.INTRO-->
+
 
 <section class="container position-relative calendar" id="date">
 
-    <aside class="position-absolute top-0 start-0 selector ">
-        <div class="sel">
-            <p class="c-white f-bold">CLIO CUP EU </p>
-        </div>
-        <div class="sel">
-            <p class="c-white f-bold">CLIO CUP IT </p>
-        </div>
-        <div class="sel">
-            <p class="c-white f-bold">TCR IT </p>
-        </div>
-    </aside>
+    <div id="carouselExampleSlidesOnly" class="carousel slide border border-primary" data-bs-ride="carousel">
 
-    <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <aside class="selector position-absolute h-50">
+            <!--
+            <div class="sel">
+                <p class="c-white f-bold">CLIO CUP EU </p>
+            </div>*/ -->
+            <div class="sel h-100">
+                <p class="c-white f-bold">CLIO CUP IT </p>
+            </div>
+            <div class="sel h-100">
+                <p class="c-white f-bold">TCR IT </p>
+            </div>
+        </aside>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="img-home/CALENDARIO_CLIOCUPEU_HOME.png" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
                 <img src="img-home/CALENDARIO_CLIOCUPIT_HOME.png" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
                 <img src="img-home/CALENDARIO_TCR_HOME.png" class="d-block w-100" alt="...">
             </div>
         </div>
+
+    </div>
+
+
+</section>
+
+
+
+<section class="container-fluid text-center pma">
+
+    <h6 class="c-grey f-bold pt-5">CHI SIAMO?</h6>
+    <br><br>
+    <h1 class="c-black f-sm-bold">PMA MOTORSPORT</h1>
+    <br>
+    <div class="container pb-5">
+        <p class="c-grey f-mid lh-lg">
+        LA PMA MOTORSPORT viene fondata nel 2019, in provincia di Modena.
+        Il progetto nasce con l'idea di offrire un servizio a 360° nel mondo
+        delle competizioni automobilistiche.
+        <br>
+        Il nostro scopo è quello di far crescere piloti emergenti e non,
+        garantendogli il massimo impegno e collaborazione da parte della
+        nostra squadra.
+        </p>
     </div>
 
 </section>
+
+<section class="container-fluid social-news">
+    <h6 class="c-grey f-bold pt-5 text-center">SOCIAL NEWS</h6>
+    <br><br>
+</section>
+
+
+<section class="container-fluid tcr text-center">
+
+    <img src="img-home/LOGO%20TCR_HYUNDAI_HOME.png" class="logo-tcr">
+    <br>
+    <div class="container pt-5">
+        <p class="c-white f-sm-bold lh-lg">
+            Il TCR i riferisce a ua serie di specifiche introdotte nel 2014
+            per vetture turismo utilizzato ad oggi in decine di competizioni
+            in tutto il mondo.
+            Tutte le vetture con specifiche TCR sono basate su modelli di serie
+            a 4 o 5 porte e sono dotate di motori da 2 litri turbocompressi
+        </p>
+        <button class="btn button c-white f-bold mt-3 mb-5">SCOPRI DI PIU</button>
+    </div>
+
+</section>
+
+
+<section class="container-fluid clio-cup text-center">
+
+    <img src="img-home/LOGO CLIOCUP_CLIOCUP_HOME.png" class="logo-clio">
+    <br>
+    <div class="container pt-5">
+        <p class="c-white f-sm-bold lh-lg">
+            Il TCR i riferisce a ua serie di specifiche introdotte nel 2014
+            per vetture turismo utilizzato ad oggi in decine di competizioni
+            in tutto il mondo.
+            Tutte le vetture con specifiche TCR sono basate su modelli di serie
+            a 4 o 5 porte e sono dotate di motori da 2 litri turbocompressi
+        </p>
+        <button class="btn button c-white f-bold mt-3 mb-5">SCOPRI DI PIU</button>
+    </div>
+
+</section>
+
+
 
 
 <!--FOOTER-->
